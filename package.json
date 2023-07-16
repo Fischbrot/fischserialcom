@@ -1,0 +1,16 @@
+{
+  "name": "fischserialcom",
+  "version": "1.0.0",
+  "description": "This package handles Serial COMPORT I/O with default Linux commands [cat, stty and echo] and (almost) no bloat",
+  "main": "index.js",
+  "scripts": {
+    "test": "node example/example.js"
+  },
+  "author": "Fischbrot (Stefan Jesner)",
+  "license": "MIT",
+  "dependencies": {
+    "child_process": "^1.0.2"
+  },
+  "devDependencies": {},
+  "keywords": []
+}
