@@ -1,7 +1,7 @@
 {
-  "name": "fischserialcom",
+  "name": "serialcom",
   "version": "1.0.0",
-  "description": "This package handles Serial COMPORT I/O with default Linux commands [cat, stty and echo] and (almost) no bloat",
+  "description": "This package handles Serial COMPORT I/O with default linux commands and (almost) no bloat",
   "main": "index.js",
   "scripts": {
     "test": "node example/example.js"
@@ -12,5 +12,16 @@
     "child_process": "^1.0.2"
   },
   "devDependencies": {},
-  "keywords": []
+  "keywords": ["serial","serialport","serialcom","comport","com", "port", "rs232","rs485","linux","io","serialcomport","fischcom","fischcomport","fishcom","fishserial","fisch","fischbrot","echo","cat","stty"],
+  "directories": {
+    "example": "example"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fischbrot/fischserialcom.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Fischbrot/fischserialcom/issues"
+  },
+  "homepage": "https://github.com/Fischbrot/fischserialcom#readme"
 }
