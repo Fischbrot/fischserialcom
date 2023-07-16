@@ -3,7 +3,7 @@ NodeJS - This package handles Serial COMPORT I/O with default Linux commands and
 
 
 ## Example
-```
+```js
 const fischcom = require('../index.js');
 
 // Set the baud rate and path
