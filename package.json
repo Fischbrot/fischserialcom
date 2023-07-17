@@ -1,6 +1,6 @@
 {
-  "name": "serialcom",
-  "version": "1.0.0",
+  "name": "serialcomport",
+  "version": "1.0.1",
   "description": "This package handles Serial COMPORT I/O with default linux commands and (almost) no bloat",
   "main": "index.js",
   "scripts": {

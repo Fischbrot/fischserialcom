@@ -1,4 +1,5 @@
 const fischcom = require('../index.js');
+//const fischcom = require('serialcomport');
 
 // Set the baud rate and path
 let config = {

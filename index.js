@@ -32,7 +32,7 @@ function setSerialConfig(config) {
 // Function to read from the serial port
 function readSerialData(config, onData) {  
   return new Promise((resolve, reject) => {
-    let {baudrate, path, debug} = config
+    let {path, debug} = config
     const command = `cat ${path}`;
     logger("--------", debug);
     logger(`EXECUTE: ${command}`, debug);
@@ -60,7 +60,7 @@ function readSerialData(config, onData) {
 // Function to write to the serial port
 function writeSerialData(config, data) {
   return new Promise((resolve, reject) => {
-    let {baudrate, path, debug} = config
+    let {path, debug} = config
     const command = `echo -e "${data}" > ${path}`;
     logger("--------", debug);
     logger(`EXECUTE: ${command}`, debug);

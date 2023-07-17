@@ -1,10 +1,13 @@
 # fischserialcom
 NodeJS - This package handles Serial COMPORT I/O with default Linux commands and (almost) no bloat
 
+## Install
+> npm i serialcomport
 
 ## Example
 ```js
 const fischcom = require('../index.js');
+//const fischom = require("serialcomport")
 
 // Set the baud rate and path
 let config = {
